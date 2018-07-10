@@ -1,0 +1,28 @@
+$roo-background: white;
+$roo-border: #BABABA;
+$roo-class: #e1554b;
+$roo-class-definition: #e1554b;
+$roo-comment: #A8A2A2;
+$roo-function: #5573B2;
+$roo-keyword: #934692;
+$roo-number: #956b32;
+$roo-operator: #000;
+$roo-regex: #eb992d;
+$roo-source: #000;
+$roo-string: #669F57;
+
+pre.language-roo {
+	color: $roo-source;
+	background-color: $roo-background;
+	border: 1px solid $roo-border;
+}
+.language-roo .token.class { color: $roo-class; }
+.language-roo .token.class_definition { color: $roo-class-definition; }
+.language-roo .token.comment { color: $roo-comment; }
+.language-roo .token.function { color: $roo-function; }
+.language-roo .token.keyword { color: $roo-keyword; }
+.language-roo .token.number { color: $roo-number; }
+.language-roo .token.operator { color: $roo-operator; }
+.language-roo .token.regex { color: $roo-regex; }
+.language-roo .token.punctuation { color: $roo-source; }
+.language-roo .token.string { color: $roo-string; }
