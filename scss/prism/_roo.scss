@@ -10,6 +10,7 @@ $roo-operator: #000;
 $roo-regex: #eb992d;
 $roo-source: #000;
 $roo-string: #669F57;
+$roo-type: #e1554b;
 
 pre.language-roo {
 	color: $roo-source;
@@ -26,3 +27,4 @@ pre.language-roo {
 .language-roo .token.regex { color: $roo-regex; }
 .language-roo .token.punctuation { color: $roo-source; }
 .language-roo .token.string { color: $roo-string; }
+.language-roo .token.type { color: $roo-type; }
