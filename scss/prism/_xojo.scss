@@ -1,3 +1,5 @@
+$xojo-background: white;
+$xojo-border: #BABABA;
 $xojo-comment: #7F0000;
 $xojo-keyword: #0000FF;
 $xojo-number: #326598;
@@ -6,11 +8,17 @@ $xojo-source: #000;
 $xojo-string: #6500FE;
 $xojo-symbol: #0000FF;
 
+pre.language-xojo {
+	color: $xojo-source;
+	background-color: $xojo-background;
+	border: 1px solid $xojo-border;
+}
+
 .language-xojo { color: $xojo-source !important; }
 .language-xojo .token.comment { color: $xojo-comment; }
 .language-xojo .token.keyword { color: $xojo-keyword; }
 .language-xojo .token.number { color: $xojo-number; }
-.language-xojo .token.operator { color: $xojo-operator; }
+.language-xojo .token.operator { color: $xojo-operator; background-color: $xojo-background;}
 .language-xojo .token.punctuation { color: $xojo-source; }
 .language-xojo .token.string { color: $xojo-string; }
 .language-xojo .token.symbol { color: $xojo-symbol; }
