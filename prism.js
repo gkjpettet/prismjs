@@ -40,7 +40,7 @@ Prism.languages.xojo = {
 	},
 	number: [/(?:\b\d+\.?\d*|\B\.\d+)(?:E[+-]?\d+)?/i,/&[bchou][a-z\d]+/i],
 	symbol: /#(?:If|Else|ElseIf|Endif|Pragma)\b/i,
-	keyword: /\b(?:AddHandler|AddressOf|And|App|Array|As(?:signs)?|By(?:Ref|Val)|Break|Call|Case|Catch|Const|Continue|CurrentMethodName|Ctype|Declare|Dim|Do(?:wnTo)?|Each|Else(?:If)?|End|Exit|Extends|False|Finally|For|Global|If|In|IsA|Lib|Loop|Me|Mod|Next|New|Nil|Not|Optional|Or|ParamArray|Raise(?:Event)?|ReDim|Rem|RemoveHandler|Return|Select|Self|Soft|Static|Step|Super|Then|To|True|Try|Ubound|Until|Using|WeakAddressOf|Wend|While|Xor)\b/i,
+	keyword: /\b(?:AddHandler|AddressOf|And|App|Array|As(?:signs)?|By(?:Ref|Val)|Break|Call|Case|Catch|Const|Continue|CurrentMethodName|Ctype|Declare|Dim|Do(?:wnTo)?|Each|Else(?:If)?|End|Exit|Extends|False|Finally|For|Function|Global|If|In|IsA|Lib|Loop|Me|Mod|Next|New|Nil|Not|Optional|Or|ParamArray|Raise(?:Event)?|ReDim|Rem|RemoveHandler|Return|Select|Self|Soft|Static|Step|Sub|Super|Then|To|True|Try|Ubound|Until|Using|WeakAddressOf|Wend|While|Xor)\b/i,
 	operator: /<[=>]?|>=?|[+\-*\/\\^=]\b/i,
 	punctuation: /[.,;:()]/
 };
