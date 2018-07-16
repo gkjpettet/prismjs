@@ -8,6 +8,10 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
  
  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+code {
+	background-color: #f7f7f7;
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;

@@ -59,8 +59,8 @@ Prism.languages.roo = {
 		}
 	],
 	string: /(\"[^\"\\\n]*(?:\\.[^\"\\\n]*)*\")|(\'[^\'\\\n]*(?:\\.[^\'\\\n]*)*\')/,
-	operator: /[-+*\/]|=?\&lt;|=?\&gt;|=|%|%=|\!|\^|<>|<|>/,
 	number: /\b(?:[+-]?(?:\d*\.?\d+|\d+\.?\d*)(?:[eE][+-]?\d+)?)|(?:0x[a-f0-9]+)\b/,
+	operator: /[-+*\/]|=?\&lt;|=?\&gt;|=|%|%=|\!|\^|<>|<|>/, 
 	keyword: /\b(?:and|break|class|else|for|function|if|module|not|or|quit|return|self|static|super|var|while)\b/i,
 	type: /\b(?:False|Nothing|True)\b/i,
 	regex: {
@@ -73,20 +73,12 @@ Prism.languages.roo = {
 			lookbehind: true
 		},
 		{
-			pattern: /[A-Z_][a-zA-Z_\d]*(?=\(.*\))/,
+			pattern: /[A-Z_][a-zA-Z_\d]?(?=\(.*\))/,
 			greedy: true
 		}
 	],	
-	class_definition: [
-		{
-			pattern: /class\s*[A-Z_][a-zA-Z_\d]*\s*\{/,
-			lookbehind: true
-		},
-		{
-			pattern: /[A-Z_][a-zA-Z_\d]*/,
-			greedy: true
-		}
-	],	
+	identifier: /\b[_a-z][_a-zA-Z\d]*(?!\()\b/,
+	class_identifier: /\b[_A-Z][_a-zA-Z\d]*\b/,
 	function: {
 		pattern: /[a-zA-Z_][a-zA-Z_\d]*\!?\??(?=\(.*\))/,
 		greedy: true
