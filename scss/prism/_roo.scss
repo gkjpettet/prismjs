@@ -1,8 +1,9 @@
 $roo-background: white;
 $roo-border: #BABABA;
 $roo-class: #e1554b;
-$roo-class-identifier: #e1554b;
+$roo-class-initialiser: #e1554b;
 $roo-comment: #A8A2A2;
+$roo-constant: #000;
 $roo-function: #5573B2;
 $roo-identifier: #000;
 $roo-keyword: #934692;
@@ -19,8 +20,9 @@ pre.language-roo {
 	border: 1px solid $roo-border;
 }
 .language-roo .token.class { color: $roo-class; }
-.language-roo .token.class_identifier { color: $roo-class-identifier; }
+.language-roo .token.class_initialiser { color: $roo-class-initialiser; }
 .language-roo .token.comment { color: $roo-comment; }
+.language-roo .token.constant_property { color: $roo-constant; }
 .language-roo .token.function { color: $roo-function; }
 .language-roo .token.identifier { color: $roo-identifier; }
 .language-roo .token.keyword { color: $roo-keyword; }
