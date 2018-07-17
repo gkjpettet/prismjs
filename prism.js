@@ -76,11 +76,11 @@ Prism.languages.roo = {
 			pattern: /\b[A-Z_][a-zA-Z_\d]?(?=\(.*\))\b/,
 			greedy: true
 		}
-	],	
-	identifier: /\b[_a-z][_a-zA-Z\d]*(?!\()\b/,
-	class_identifier: /\b[_A-Z][_a-zA-Z\d]*\b/,
+	],
 	function: {
 		pattern: /[a-zA-Z_][a-zA-Z_\d]*\!?\??(?=\(.*\))/,
 		greedy: true
 	},
+	identifier: /\b[_a-z][_a-zA-Z\d]*(?!\()\b/,
+	class_identifier: /\b[_A-Z][_a-zA-Z\d]*\b/,
 }
