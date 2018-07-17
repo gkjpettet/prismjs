@@ -73,7 +73,7 @@ Prism.languages.roo = {
 			lookbehind: true
 		},
 		{
-			pattern: /[A-Z_][a-zA-Z_\d]?(?=\(.*\))/,
+			pattern: /\b[A-Z_][a-zA-Z_\d]?(?=\(.*\))\b/,
 			greedy: true
 		}
 	],	
