@@ -61,8 +61,8 @@ Prism.languages.roo = {
 	string: /(\"[^\"\\\n]*(?:\\.[^\"\\\n]*)*\")|(\'[^\'\\\n]*(?:\\.[^\'\\\n]*)*\')/,
 	number: /\b(?:[+-]?(?:\d*\.?\d+|\d+\.?\d*)(?:[eE][+-]?\d+)?)|(?:0x[a-f0-9]+)\b/,
 	operator: /[-+*\/]|=?\&lt;|=?\&gt;|=|%|%=|\!|\^|<>|<|>/, 
-	keyword: /\b(?:and|break|class|else|for|function|if|module|not|or|quit|return|self|static|super|var|while)\b/i,
-	type: /\b(?:False|Nothing|True)\b/i,
+	keyword: /\b(?:and|break|class|else|for|function|if|module|not|or|quit|return|self|static|super|var|while)\b/,
+	type: /\b(?:False|Nothing|True)\b/,
 	regex: {
 		pattern: /\|.*\|[iseum]{0,5}/,
 		greedy: true
